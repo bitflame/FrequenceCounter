@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+            
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<counter>",
+            "request": "launch",
+            "mainClass": "princeton.App",
+            "projectName": "counter"
+        },
+        { 
+            "type": "java",
+            "name": "Debug (Launch)-FrequencyCounter<counter>",
+            "request": "launch",
+            "mainClass": "princeton.FrequencyCounter",
+            "projectName": "counter",
+            "args": ["1", "C:\\Users\\Azizam\\source\\FrequenceCounter\\counter\\input.txt"]
+        }
+    ]
+}
