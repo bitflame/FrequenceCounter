@@ -3,7 +3,6 @@ package princeton;
 import edu.princeton.cs.algs4.ST;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-import jdk.jfr.ContentType;
 
 public class FrequencyCounter {
     public static void main(String [] args) {
@@ -21,5 +20,6 @@ public class FrequencyCounter {
         if (st.get(word)>st.get(max))
         max=word;
         StdOut.println(max + " "+ st.get(max));
+        
     }  
 }
